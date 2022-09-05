@@ -61,7 +61,7 @@ function Viewpager() {
 				>
 					<animated.div style={{ scale }}>
 						<article className="h-full flex flex-col justify-center items-center">
-							<section className="w-80 pb-28 leading-7 text-sm font-extralight dark:text-white">
+							<section className="w-80 md:pb-5 lg:pb-24 leading-7 text-sm font-extralight dark:text-white">
 								<p className="whitespace-pre-line text-justify">
 									{prov[i].content}
 								</p>
