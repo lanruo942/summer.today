@@ -60,8 +60,8 @@ function Viewpager() {
 					style={{ display, x, touchAction: 'none' }}
 				>
 					<animated.div style={{ scale }}>
-						<article className="relative h-full">
-							<section className="absolute top-1/2 left-1/2 w-80 -mt-[85px] -ml-[160px] leading-7 text-sm font-extralight dark:text-white">
+						<article className="h-full flex flex-col justify-center items-center">
+							<section className="w-80 pb-28 leading-7 text-sm font-extralight dark:text-white">
 								<p className="whitespace-pre-line text-justify">
 									{prov[i].content}
 								</p>
