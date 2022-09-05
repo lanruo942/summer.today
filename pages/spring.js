@@ -16,7 +16,7 @@ function Text() {
 	});
 
 	return (
-		<animated.h1 className="text-3xl font-semibold" style={props}>
+		<animated.h1 className="text-3xl font-semibold dark:text-white" style={props}>
 			hello
 		</animated.h1>
 	);
@@ -66,7 +66,7 @@ function Number() {
 	});
 
 	return (
-		<animated.div className="text-3xl font-semibold">
+		<animated.div className="text-3xl font-semibold dark:text-white">
 			{number.to((n) => n.toFixed(2))}
 		</animated.div>
 	);
