@@ -15,7 +15,7 @@ export default function Layout({ children }) {
 	}, []);
 
 	return (
-		<div className="dark:bg-[#000] h-screen container">
+		<div className="dark:bg-[#000] h-screen">
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
